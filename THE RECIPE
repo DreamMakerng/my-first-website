@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <title>THE MILLIONAIRE RECIPE</title>
+  </head>
+  <body>
+    <h1> THE MILLIONAIRE RECIPE.</h1>
+    <p>This is a recipe that teaches you how to become a millionaire or at least a recipie i wish exsisted.</p>
+    <p>But from what every rich man and woman i have ever seen/met (watched on IG) said there are a few things i can give and label them as "Ingredients"...</p>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>Dicipline</li>
+      <li>Consistency</li>
+      <li>Hard Work</li>
+      <li>The "I'm never giving up" mindset</li>
+      <li>humility- in the 'yes i'm dumb, teach me way' you can never learn anything if you are proud</li>
+      <li>Obssesion</li>
+    </ul>
+    <h2>Instructions</h2>
+    <ol>
+      <li><strong>Figure out what you love</strong> [Then obsses about it, it should be all you think about, all you talk about. people migth start to call you names because of that but it's alright. Mr Beast once said "you're crazy until your succesful then you're a genius"]</li>
+      <li><strong>Get good at what you love</strong>[This is where the dicipline & consistency comes in. It's not going to be easy, but let's be honest, what is? that's right nothing. If you think the bill fo succes is to much wait until they hand you the bill for regret.</li>
+      <li><strong>Then do so much work that it becomes unreasonable for you not to succed</strong>[I don't think i need to mention that this is the part where the hard work comes in...It's as simple as that.]</li>
+      <li><strong>One thing to note is that you should never be afraid of faliure;</strong> Take the risks(wise risks) keep in mind that "It's all risky, the minute you where born it got risky, if you think investing is risky then wait till you get the tab for not investing, getting married is risky, having children is risky, going into business is risky, investing money is risky, I'll tell you how risky life is...your not going to get out alive...that's risky...(Jim Rhon)</li>
+    </ol>
+    <h5>The ideas points 1, 2 & 3 where gotten from a video by Alex Hormonzi.</h5>
+    <figure>
+      <img src= "https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt= "A completly unrelated image, but it does have eggs and flour in it so i'd say it matches the 'recipe' part">
+      <figcaption>This is not about eggs an flour -_-</figcaption>
+    </figure>
+  </body>
+</html>  
