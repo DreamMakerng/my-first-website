@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <meta name="description" content="Personal Info Form">
+        <meta name="author" content="DreamMakerng">
+        <meta property="og:title" content="Practice Form">
+        <meta property="og:description" content="A form I created for practice">
+        <meta property="og:image" content="https://github.com/DreamMakerng/my-first-website/blob/main/Creek.jpg">
+        <meta property="og:type" content="Website">
+        <title>Practice Form</title>
+        <style>
+            body{background-color: #0f172a; color: #f8fafc; font-family: arial, sans-serif; text-align: center; margin-top: 100px; }
+            h1{ color: #38bdf8; }
+        </style>
+    </head>
+    <body>
+        <script>
+            alert("Please fill in the required information accordingly -_-");
+        </script>
+        <header>
+            <h1>Welcome to our page</h1>
+        </header>
+        <p>
+            <h2>Tell us more about you</h2>
+        </p>
+        <form method="post" action="/submit">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="name">Name:</label>
+                <input id="name" type="text" required minlength="2">
+                <br><br>
+                <label for="age">Age:</label>
+                <input id="age" type="number" min="1" max="120">
+                <br>                
+            </fieldset>
+            <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+            <br><br>
+            <label for="country">Country:</label>
+            <select id="country" required>
+                <option value="">Choose One</option>
+                <option value="ng">Nigeria</option>
+                <option value="gh">Ghana</option>
+                <option value="ke">Kenya</option>
+            </select>           
+            <br><br>
+            <button type="submit">Submit Form</button>
+        </form>
+        <footer>
+            &#169; 2025 DreamMakerng
+        </footer>
+    </body>
+</html>
