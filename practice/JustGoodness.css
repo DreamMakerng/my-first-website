@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: black;
+}
+
+.menu {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+header h1 {
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.sidekick {
+  background-color: hsl(145, 85%, 70%);
+  text-align: center;
+  padding: 4rem 1rem;
+  margn-bottom: 2rem;
+}
+
+.sidekick h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.sidekick .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.categories {
+  text-align: center;
+}
+
+.categories h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.catlist a { 
+  font-size: 1.1rem;
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 25px;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.catlist a:hover {
+  background-color: black;
+  color: hsl(145, 85%, 59%);
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+ transition: background-color 0.7s ease;
+}
+
+.products h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: hsl(145, 85%, 59%);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.product-card h4 {
+  margin: 0.5rem 0;
+}
+
+.product-card button{
+  background: hsl(145, 85%, 63%);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.product-card button:hover {
+  background: hsl(145, 85%, 50%);
+}
+
+footer {
+  background: hsl(145, 85%, 70%);
+  color: black;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
