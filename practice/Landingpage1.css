@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'segoe UI', Poppins, Inter;
+  line-height: 1.6;
+  background: #0F172A;
+  color: #E5E7EB;
+}
+
+#hero {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header #hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  border-bottom: 2px solid black;
+  padding: 1rem 0;
+}
+
+h1 {
+  color: #111887;
+}
+
+#atb {
+  background: #111887;
+  text-align: center;
+  padding: 4rem 1rem;
+  margin-bottom: 2rem;
+}
+
+#atb h2 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+}
+
+#atb .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+#ca {
+  font-size: 2rem;
+}
+
+.sec {
+  background-color: #1117;
+  border-right: 2px solid green;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+  margin: 1.3rem;
+  padding: 5rem;
+}
+
+.sect {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+  margin: 1.3rem;
+  padding: 5rem;
+  text-align: center;
+}
+
+.sect p {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.sect .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 2rem 2.5rem;
+  background: green;
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+footer {
+  text-align:  center;
+  border-top: 0.2px solid black;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+   line-height: 2;
+}
+
+#atb a:visited {
+  background-color: lightgreen;
+  color: white;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+ transition: background-color 0.2s ease;
+}
+
+#atb a:hover {
+  background-color: darkgreen;
+  color: white;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+ transition: background-color 0.2s ease;
+}
+
+#atb a:active {
+  background-color: limegreen;
+  color: white;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+ transition: background-color 0.1s ease;
+}
+
+.sect a:visited {
+  background-color: lightgreen;
+  color: white;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+ transition: background-color 0.2s ease;
+}
+
+.sect a:hover {
+  background-color: darkgreen;
+  color: white;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+ transition: background-color 0.2s ease;
+}
+
+.sect a:active {
+  background-color: limegreen;
+  color: white;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+ transition: background-color 0.1s ease;
+}
