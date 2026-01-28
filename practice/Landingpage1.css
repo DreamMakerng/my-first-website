@@ -17,6 +17,12 @@ body {
   margin: auto;
 }
 
+header #hero {
+ 
+  justify-content: space-between;
+  align-items: center;
+}
+
 header {
   border-bottom: 2px solid black;
   padding: 1rem 0;
@@ -54,6 +60,13 @@ h1 {
 
 #ca {
   font-size: 2rem;
+}
+
+.tunde {
+  max-width: 150px;
+  max-height: 150px;
+  display: inline-block;
+  margin-top: 30px;
 }
 
 .sec {
