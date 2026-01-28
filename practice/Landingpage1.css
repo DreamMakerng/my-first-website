@@ -68,6 +68,10 @@ h1 {
   font-size: 2rem;
 }
 
+.test {
+  font-size: 1rem;
+}
+
 .tunde {
   max-width: 200px;
   max-height: 200px;
