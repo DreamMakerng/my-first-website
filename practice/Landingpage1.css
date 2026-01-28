@@ -17,11 +17,6 @@ body {
   margin: auto;
 }
 
-header #hero {
-  justify-content: space-between;
-  align-items: center;
-}
-
 header {
   border-bottom: 2px solid black;
   padding: 1rem 0;
