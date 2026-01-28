@@ -50,12 +50,18 @@ h1 {
   justify-content: center;
   width: 68px;
   height: 68px;
-  background-color: #111877;
-  color: #000;
+  background-color: #F8FAFC;
+  color: #111887;
+  border: 2px solid #111897;
   border-radius: 50%;
   text-decoration: none;
   margin-top: 1rem;
   padding: 3.4rem;
+}
+
+.coachalex {
+  width: 170px;
+  height: 220px
 }
 
 #ca {
@@ -63,8 +69,8 @@ h1 {
 }
 
 .tunde {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 200px;
+  max-height: 200px;
   display: inline-block;
   margin-top: 30px;
 }
@@ -74,12 +80,14 @@ h1 {
   border-right: 3.5px solid #111897;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.9);
-  margin: 1.3rem;
+  margin: 4rem 1.3rem;
   padding: 5rem;
 }
 
 .sect {
   background-color: #111857;
+  border-right: 6.5px solid #1117;
+  border-bottom: 6.5px solid #1117;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.9);
   margin: 1.3rem;
@@ -98,8 +106,9 @@ h1 {
   justify-content: center;
   width: 68px;
   height: 68px;
-  background-color: #111897;
-  color: #000;
+  background-color: #F8FAFC;
+  color: #111897;
+  border: 2px solid #111897;
   border-radius: 50%;
   text-decoration: none;
   margin-top: 1rem;
