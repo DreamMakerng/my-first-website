@@ -55,10 +55,6 @@ body {
   height: 220px
 }
 
-.container {
-  display: flex;
-}
-
 .card {
   margin: 20px;
 }
