@@ -35,10 +35,15 @@ body {
   box-shadow: 0 14px 12px black;
 }
 
+.coachalex {
+  padding-right: calc(50%-25%);
+  padding-left: calc(50%-25%);
+}
+
 .card {
   background-color: #1F2235;
   color: #E3A419;
-  width: 400px;
+  width: auto;
   padding: 40px;
   margin: 0 auto;
   border-radius: 10px;
@@ -46,14 +51,11 @@ body {
 }
 
 .coachalex {
-  padding-right: calc(50%-25%);
-  padding-left: calc(50%-25%);
-}
-
-.coachalex {
   width: 170px;
   height: 220px
 }
+
+
 
 .card {
   margin: 20px;
