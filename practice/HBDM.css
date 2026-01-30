@@ -5,15 +5,6 @@ body {
   line-height: 1.6;
 }
 
-h1 {
-  font-size: 3rem;
-  text-align: center;
-}
-
-p {
-  font-weight: 400;
-}
-
 
 body {
   background: url("https://dreammakerng.github.io/my-first-website/practice/HBDM.png");
@@ -27,18 +18,33 @@ body {
 
 #card {
   background-color: #1F2235;
-  color: #E3A419;
-  width: auto;
   padding: 40px;
-  margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 14px 12px black;
+  display: inline-block;
+  justify-items: center;
 }
 
+#card h1 {
+  border: 2px solid #E3A419;
+  border-radius: 10px;
+  box-shadow: 0 6px 7px #E3A419;
+  color: #E3A419;
+  padding: 10px;
+  text-align: center;
+} 
 
-.coachalex {
-  padding-right: calc(50%-25%);
-  padding-left: calc(50%-25%);
+#card img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 6px 7px #E3A419;
+}
+
+#card>p {
+  color: #E3A419;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0 6px 7px #E3A419;
 }
 
 .card {
@@ -47,14 +53,6 @@ body {
   width: auto;
   padding: 40px;
   margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 0 14px 12px black;
-}
-
-.coachalex {
-  width: 400px;
-  height: 400px;
-  border: 6px solid #1F2235;
   border-radius: 10px;
   box-shadow: 0 14px 12px black;
 }
