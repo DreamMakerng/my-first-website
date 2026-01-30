@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.6;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+
+body {
+  background: url("https://dreammakerng.github.io/my-first-website/practice/HBDM.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-width: 1oovw;
+  background-height: 1oovh;
+  padding: 40px;
+  text-align: center;
+}
+
+.cardd {
+  background-color: #1F2235;
+  color: #E3A419;
+  width: 50%;
+  padding: 40px;
+  margin-right: 25%;
+  margin-left: 25%;
+  border-radius: 10px;
+  box-shadow: 0 14px 12px black;
+}
+
+.card {
+  background-color: #1F2235;
+  color: #E3A419;
+  width: 30vw;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 14px 12px black;
+}
+
+.coachalex {
+  width: 170px;
+  height: 220px
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card {
+  position: relative;
+  left: 0px;
+}
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+}
+
+.card:hover {
+  right: 50px;
+  transition: 1.2s ease;
+}
