@@ -17,7 +17,7 @@ p {
 body {
   background: url("https://dreammakerng.github.io/my-first-website/practice/HBDM.png");
   background-repeat: repeat;
-  background-position: center;
+  background-position: center-top;
   background-width: 1oovw;
   background-height: 1oovh;
   padding: 40px;
@@ -29,8 +29,8 @@ body {
   color: #E3A419;
   width: 50%;
   padding: 40px;
-  margin-right: 25%;
-  margin-left: 25%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10px;
   box-shadow: 0 14px 12px black;
 }
