@@ -17,6 +17,9 @@ body {
 }
 
 #card {
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #1F2235;
   padding: 40px;
   border-radius: 10px;
@@ -36,6 +39,8 @@ body {
 
 #card img {
   max-width: 400px;
+  margin-right: 50px;
+  margin-left: 50px;
   border-radius: 10px;
   box-shadow: 0 6px 7px #E3A419;
 }
@@ -47,21 +52,24 @@ body {
   box-shadow: 0 6px 7px #E3A419;
 }
 
-.card {
-  background-color: #1F2235;
-  color: #E3A419;
-  padding: 40px;
-  margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 0 14px 12px black;
-}
-
 #tag {
   font-size: 2rem;
 }
 
-.card {
-  margin: 20px;
+.container {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.container>.card {
+  margin: 40px;
+  border: 2px solid #E3A419;
+  border-radius: 10px;
+  box-shadow: 0 6px 7px #E3A419;
+  background-color: #1F2235;
+  color: #E3A419;
+  padding: 10px;
+  text-align: center;
 }
 
 .card {
