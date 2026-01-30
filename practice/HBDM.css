@@ -1,87 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
 
 body {
-  font-family: 'Playfair Display', serif;
-  line-height: 1.6;
-}
-
-
-body {
   background: url("https://dreammakerng.github.io/my-first-website/practice/HBDM.png");
-  background-repeat: repeat;
   background-position: center-top;
-  background-width: 1oovw;
-  background-height: 1oovh;
-  padding: 40px;
-  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 16px;
 }
 
 #card {
-  width: 500px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: #1F2235;
-  padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 14px 12px black;
-  display: inline-block;
-  justify-items: center;
-}
-
-#card h1 {
-  border: 2px solid #E3A419;
-  border-radius: 10px;
-  box-shadow: 0 6px 7px #E3A419;
-  color: #E3A419;
-  padding: 10px;
+  box-shadow: 0 6px 7px black;
   text-align: center;
-} 
-
-#card img {
-  max-width: 400px;
-  margin-right: 50px;
-  margin-left: 50px;
-  border-radius: 10px;
-  box-shadow: 0 6px 7px #E3A419;
-}
-
-#card>p {
-  color: #E3A419;
-  padding: 8px;
-  border-radius: 10px;
-  box-shadow: 0 6px 7px #E3A419;
-}
-
-#tag {
-  font-size: 2rem;
-}
-
-.container {
-  width: 50%;
-  margin-left: 25%;
-}
-
-.container>.card {
-  margin: 40px;
-  border: 2px solid #E3A419;
-  border-radius: 10px;
-  box-shadow: 0 6px 7px #E3A419;
+  padding: 16px;
   background-color: #1F2235;
   color: #E3A419;
-  padding: 10px;
-  text-align: center;
+}
+
+h1 {
+  border-radius: 10px;
+  box-shadow: 0 6px 7px #E3A419;
+}
+
+#card>.coachalex {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 6px 7px #E3A419;
 }
 
 .card {
-  position: relative;
-  left: 0px;
-}
-
-.card:hover {
-  transform: translateY(-20px);
-}
-
-.card:hover {
-  right: 50px;
-  transition: 1.2s ease;
+  margin: 40px;
+  border-radius: 10px;
+  background-color: #1F2235;
+  color: #E3A419;
+  box-shadow: 0 6px 7px #E3A419;
+  text-align: center;
+  padding: 16px;
 }
